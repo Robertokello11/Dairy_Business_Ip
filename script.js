@@ -1,13 +1,13 @@
 var sheds = [
     {
         name: "Shed A",
-        totaCows: 40,
-        averageProd: 25
+        totaCows: 34,
+        averageProd: 15
     },
     {
         name: "Shed B",
-        totalCows: 21,
-        averageProd: 16
+        totalCows: 22,
+        averageProd: 14
     },
     {
         name: "Shed C",
@@ -17,11 +17,11 @@ var sheds = [
     },
     {
         name: "Shed D",
-        totalCows: 52,
-        averageProd: 28
+        totalCows: 26,
+        averageProd: 22
     }
 ];
-function inputs() {
+function shedes() {
     var A = document.getElementById("A").value;
     var B = document.getElementById("B").value;
     var C = document.getElementById("C").value;
