@@ -20,6 +20,6 @@ To access this project on your local files, you can clone it using these steps
 1. JavaScript
 1. Git
 ### Live Site
-View [live]()
+View [live](https://robertokello11.github.io/Dairy_Business_Ip/)
 ### Licence
 This project is under the  [MIT](LICENSE) licence
