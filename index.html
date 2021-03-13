@@ -1,32 +1,51 @@
 <!DOCTYPE html>
-<html>
- <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" type="text/css" href="styles.css">
-   <title></title>
- </head>
- <body>
-   <div class="form">
-     <p>shades</p>
-   <div class="input-field">
-     <label for="romi">Shed1</label>
-     <input class="roman number" type="text" id="romi" name="romi">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Form</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <h1>Dairy Business</h1>
+   <div>
+    <h2>SHED A</h2>
+    <label>Total cows</label>
+    <input type="number"  value="40">
+    <label>average production in litres</label>
+    <input type="number"  value="25">
    </div>
-   <div class="input-field">
-     <label for="romii">shed 2</label>
-     <input class="roman number" type="text" id="romii" name="romii">  
+   <div>
+    <h2>SHED B</h2>
+    <label>Total cows</label>
+    <input type="number"  value="21">
+    <label>average production in litres</label>
+    <input type="number"  value="16">
    </div>
-   <div class="input-field">
-     <label for="romiii">shed 3</label>
-     <input class="roman number" type="text" id="romiii" name="romiii">
+   <div>
+    <h2>SHED C</h2>
+    <label>Total cows</label>
+    <input type="number"  value="27">
+    <label>average production in litres</label>
+    <input type="number"  value="18">
    </div>
-   <div class="input-field">
-     <label for="romiv">shed 4</label>
-     <input class="roman number" type="text" id="romiv" name="romiv">
+   <div>
+    <h2>SHED D</h2>
+    <label>Total cows</label>
+    <input type="number"  value="52">
+    <label>average production in litres</label>
+    <input type="number"  value="28">
    </div>
-   <input class="button" type="button" value="Findout" 
+   <div>
+       <p>To see what amount of milk is produced in every shed  click below</p>
+       <button onclick="totalProduction(verbose)">find average</button>
    </div>
- </body>
-    <scrpt src="js/script.js"></scrpt>
+   
+   <p id="display" style="font-size:30px;color:aquamarine;"></p>
+
+    
+</body>
 </html>
+
