@@ -3,10 +3,17 @@ input{
     border: 1px solid #f7f;
     display:table-row;   
     width: 90px;
+    margin: 1%;
 }
 .sheds{
     font-size: 20px;
     font-weight: 150;
     font-style: italic;
 
+}
+label{
+    font-size: 19px;
+    font-family: fantasy;
+    font-style: italic;
+    font-weight: 100;
 }
