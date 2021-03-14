@@ -15,7 +15,7 @@ To access this project on your local files, you can clone it using these steps
 1. This will clone the repositoty into your local folder
 1. __Enjoy :)__
 ### Technologies Used
-1. HTML
+1. HTMLs
 1. CSS
 1. JavaScript
 1. Git
